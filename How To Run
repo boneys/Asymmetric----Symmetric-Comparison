@@ -1,0 +1,19 @@
+Hai guys,
+
+	In this given python script, What i have done is a simple script to show the execution time comparison of Symmetric and Asymmetric Encyption.
+
+	For the execution of this script you need time_sy.txt and time_asy.txt in the current directory. On executing it will ask you to create files names of 100MB,200MB,...,800MB. Script will show you exact time for symmetric and asymmetric encrption process. Lastly it will plot you the results in a graph using gnuplot.    
+
+	I am attaching the commands for gnuplot along with this script gnu_commands.gp.
+        If you find any problem regarding seeing the graph, copy paste the plot command(last commandin gnu_commands.gp) in terminal.
+
+System Prerequisites:
+
+	1. Install Openssl
+
+	 Now, for Asymmetric encryption you must first generate your 	 private key and extract the public key.    
+
+	2. >> openssl genrsa -des3 -out private.key 4096
+           >> openssl rsa -in private.key -pubout -out public.key
+
+Thank You
